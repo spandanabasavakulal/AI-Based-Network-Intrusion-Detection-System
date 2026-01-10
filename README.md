@@ -1,1 +1,23 @@
-﻿---title: AI NIDS Student Projectemoji: ðŸ›¡ï¸colorFrom: bluecolorTo: greensdk: streamlitsdk_version: 1.39.0app_file: app.pypinned: false---# ðŸ›¡ï¸ AI-Based Network Intrusion Detection System (Student Project)This project demonstrates how to use **Machine Learning (Random Forest)** and **Generative AI (Grok)** to detect and explain network attacks (specifically DDoS).## ðŸš€ How to Use1. **Enter API Key:** Paste your Grok API key in the sidebar (optional, for AI explanations).2. **Train Model:** Click the "Train AI Model" button. The system loads the `Friday-WorkingHours...` dataset automatically.3. **Simulate:** Click "Simulate Random Packet" to pick a real network packet from the test set.4. **Analyze:** See if the model flags it as **BENIGN** or **DDoS**, and ask Grok to explain why.## ðŸ“‚ Files- `app.py`: The main Python application code.- `requirements.txt`: List of libraries used.- `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`: The dataset (CIC-IDS2017 subset).## ðŸŽ“ AboutCreated for a university cybersecurity project to demonstrate the integration of traditional ML and LLMs in security operations.
+# AI-Based Network Intrusion Detection System
+
+This project is part of a **Cyber Security with Generative AI internship**.
+It detects network intrusions using Machine Learning and explains results using Generative AI.
+
+## 🚀 Live Demo
+👉 [https://huggingface.co/spaces/Spandana-cyber/AIBasedNetworkIntrusionDetectionSystem]
+
+## 🛠 Technologies Used
+- Python
+- Streamlit
+- Random Forest Classifier
+- Generative AI (Groq)
+- CIC-IDS2017 Dataset
+
+## 📂 Files
+- `app.py` – Streamlit application
+- `requirements.txt` – Dependencies
+- `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv` – Dataset
+
+## ℹ️ Note
+Base project files were provided as part of the internship. Deployment, execution,
+and documentation were done by the student.
