@@ -18,6 +18,4 @@ It detects network intrusions using Machine Learning and explains results using 
 - `requirements.txt` – Dependencies
 - `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv` – Dataset
 
-## ℹ️ Note
-Base project files were provided as part of the internship. Deployment, execution,
-and documentation were done by the student.
+
